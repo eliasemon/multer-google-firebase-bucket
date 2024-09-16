@@ -1,0 +1,56 @@
+{
+  "name": "multer-google-or-firebase-bucket",
+  "version": "2.0.1",
+  "description": "A multer storage engine for Google-Cloud/Firebase Storage.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.0.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.13",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.5",
+    "@types/supertest": "^6.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliasemon/multer-google-firebase-bucket.git"
+  },
+  "keywords": [
+    "multer-gcs",
+    "multer-firebase",
+    "multer-google-cloud",
+    "multer",
+    "firebase",
+    "google-cloud-storage",
+    "express",
+    "multer-google"
+  ],
+  "author": "Md Elias Hossain(Elias Emon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliasemon/multer-google-firebase-bucket/issues"
+  },
+  "homepage": "https://github.com/eliasemon/multer-google-firebase-bucket#readme"
+}

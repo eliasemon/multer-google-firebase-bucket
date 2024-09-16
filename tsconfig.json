@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",             // Output compiled JS files here
+    "module": "commonjs",           // Use CommonJS module system for Node.js
+    "target": "ES2015",             // Set ECMAScript version for target
+    "declaration": true,            // Generate declaration files (types)
+    "declarationDir": "./dist",     // Output types to the dist folder
+    "strict": true,                 // Enable all strict type checks
+    "esModuleInterop": true         // Enable ES module interop for import/export
+  },
+  "include": ["src/**/*"],           // Include all TS files in src
+  "exclude": ["test"]                // Exclude the test folder from compilation
+}
